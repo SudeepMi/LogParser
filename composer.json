@@ -2,7 +2,7 @@
     "name": "Sudeep/log-reader",
     "description": "An easy log reader and management tool for Laravel",
     "keywords": ["log", "logs", "reader", "viewer", "log-reader", "log-viewer", "log-manager", "laravel"],
-    "license": ['KSOFT'],
+    "license": ["KSOFT"],
     "authors": [
         {
             "name": "Sudeep Mishra",
