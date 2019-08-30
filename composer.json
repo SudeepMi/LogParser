@@ -1,0 +1,27 @@
+{
+    "name": "Sudeep/log-reader",
+    "description": "An easy log reader and management tool for Laravel",
+    "keywords": ["log", "logs", "reader", "viewer", "log-reader", "log-viewer", "log-manager", "laravel"],
+    "license": "OWNER",
+    "authors": [
+        {
+            "name": "Sudeep Mishra",
+            "email": "sudeep0599@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/cache": "5.*",
+        "illuminate/config": "5.*",
+        "illuminate/console": "5.*",
+        "illuminate/http": "5.*",
+        "illuminate/pagination": "5.*",
+        "illuminate/support": "5.*",
+        "nesbot/carbon": "~1.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sudeep\\LogReader\\": "src/Sudeep/LogReader"
+        }
+    },
+    "minimum-stability": "stable"
+}
