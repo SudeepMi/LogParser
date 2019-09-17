@@ -1,3 +1,10 @@
+#installation 
+
+via Composer
+
+composer require sudeep/logparser
+
+
 # Laravel Log Reader
 
 Laravel Log Reader is an easy log reader and management tool for Laravel. You can easily view, manage, and modify the log entries throught web browser and Artisan CLI. Using Laravel Log Reader is almost identical to using any Eloquent model.
