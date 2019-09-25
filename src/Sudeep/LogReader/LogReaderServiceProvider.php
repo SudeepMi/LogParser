@@ -70,18 +70,18 @@ class LogReaderServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    protected function registerCommands()
-    {
-        $this->app->bind('command.log-reader.delete', 'Sudeep\LogReader\Console\Commands\LogReaderDeleteCommand');
-        $this->app->bind('command.log-reader.detail', 'Sudeep\LogReader\Console\Commands\LogReaderDetailCommand');
-        $this->app->bind('command.log-reader.file-list', 'Sudeep\LogReader\Console\Commands\LogReaderFileListCommand');
-        $this->app->bind('command.log-reader.get', 'Sudeep\LogReader\Console\Commands\LogReaderGetCommand');
-        $this->app->bind('command.log-reader.remove-file', 'Sudeep\LogReader\Console\Commands\LogReaderRemoveFileCommand');
+    // protected function registerCommands()
+    // {
+    //     $this->app->bind('command.log-reader.delete', 'Sudeep\LogReader\Console\Commands\LogReaderDeleteCommand');
+    //     $this->app->bind('command.log-reader.detail', 'Sudeep\LogReader\Console\Commands\LogReaderDetailCommand');
+    //     $this->app->bind('command.log-reader.file-list', 'Sudeep\LogReader\Console\Commands\LogReaderFileListCommand');
+    //     $this->app->bind('command.log-reader.get', 'Sudeep\LogReader\Console\Commands\LogReaderGetCommand');
+    //     $this->app->bind('command.log-reader.remove-file', 'Sudeep\LogReader\Console\Commands\LogReaderRemoveFileCommand');
 
-        $this->commands('command.log-reader.delete');
-        $this->commands('command.log-reader.detail');
-        $this->commands('command.log-reader.file-list');
-        $this->commands('command.log-reader.get');
-        $this->commands('command.log-reader.remove-file');
-    }
+    //     $this->commands('command.log-reader.delete');
+    //     $this->commands('command.log-reader.detail');
+    //     $this->commands('command.log-reader.file-list');
+    //     $this->commands('command.log-reader.get');
+    //     $this->commands('command.log-reader.remove-file');
+    // }
 }
