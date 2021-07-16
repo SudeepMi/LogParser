@@ -10,12 +10,12 @@
         }
     ],
     "require": {
-        "illuminate/cache": "5.*",
-        "illuminate/config": "5.*",
-        "illuminate/console": "5.*",
-        "illuminate/http": "5.*",
-        "illuminate/pagination": "5.*",
-        "illuminate/support": "5.*",
+        "illuminate/cache": "7.*",
+        "illuminate/config": "7.*",
+        "illuminate/console": "7.*",
+        "illuminate/http": "7.*",
+        "illuminate/pagination": "7.*",
+        "illuminate/support": "7.*",
         "nesbot/carbon": "~1.20"
     },
     "autoload": {
